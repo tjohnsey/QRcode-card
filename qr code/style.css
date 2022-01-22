@@ -3,3 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*Universal*/
+html {
+  background-color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+}
+
+/*card*/
+.card {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  border: 20px solid white;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*QR COde*/
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+/*Text*/
+h2 {
+  font-size: 20px;
+  padding: 15px;
+}
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
